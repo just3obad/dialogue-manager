@@ -6862,3 +6862,101 @@ Processing by ParserController#get_html as HTML
 DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
   Rendered parser/result.vxml.erb (0.1ms)
 Completed 200 OK in 37ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-18 15:39:00 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-18 15:39:01 +0200
+Processing by ParserController#home as HTML
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (4.7ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+  Rendered parser/home.html.erb (3.7ms)
+Completed 200 OK in 109ms (Views: 99.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-23 16:03:41 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (11.2ms)
+Completed 200 OK in 184ms (Views: 183.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-23 16:07:52 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find/q_keyword=oxygen&q_type=who" for 127.0.0.1 at 2013-06-23 16:07:59 +0200
+Processing by ParserController#get_html as HTML
+  Parameters: {"keyword"=>"oxygen", "type"=>"who"}
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/result.html.erb (1.0ms)
+Completed 200 OK in 4827ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-23 16:08:41 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find/q_keyword=oxygen&q_type=who" for 127.0.0.1 at 2013-06-23 16:08:48 +0200
+Processing by ParserController#get_html as HTML
+  Parameters: {"keyword"=>"oxygen", "type"=>"who"}
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+Completed 500 Internal Server Error in 1959ms
+
+ActionView::MissingTemplate (Missing template parser/result.xml with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/home/j3/Desktop/rails_project/dialogue-manager/app/views"
+  * "/home/j3/Desktop/rails_project/dialogue-manager"
+  * "/"
+):
+  app/controllers/parser_controller.rb:14:in `get_html'
+
+
+  Rendered /home/j3/.rvm/gems/ruby-1.9.2-p320@DialougeManager/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/find/q_keyword=oxygen&q_type=who.xml" for 127.0.0.1 at 2013-06-23 16:09:01 +0200
+Processing by ParserController#get_html as XML
+  Parameters: {"keyword"=>"oxygen", "type"=>"who"}
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+Completed 500 Internal Server Error in 1931ms
+
+ActionView::MissingTemplate (Missing template parser/result.xml with {:locale=>[:en], :formats=>[:xml], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/home/j3/Desktop/rails_project/dialogue-manager/app/views"
+  * "/home/j3/Desktop/rails_project/dialogue-manager"
+  * "/"
+):
+  app/controllers/parser_controller.rb:14:in `get_html'
+
+
+  Rendered /home/j3/.rvm/gems/ruby-1.9.2-p320@DialougeManager/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/find/q_keyword=oxygen&q_type=who.xml" for 127.0.0.1 at 2013-06-23 16:10:21 +0200
+Processing by ParserController#get_html as XML
+  Parameters: {"keyword"=>"oxygen", "type"=>"who"}
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/result.xml.erb (0.7ms)
+Completed 200 OK in 1960ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find/q_keyword=oxygen&q_type=who" for 127.0.0.1 at 2013-06-23 16:10:24 +0200
+Processing by ParserController#get_html as HTML
+  Parameters: {"keyword"=>"oxygen", "type"=>"who"}
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/result.xml.erb (1.0ms)
+Completed 200 OK in 1979ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find/q_keyword=oxygen&q_type=who.xml" for 127.0.0.1 at 2013-06-23 16:10:52 +0200
+Processing by ParserController#get_html as XML
+  Parameters: {"keyword"=>"oxygen", "type"=>"who"}
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/result.xml.erb (0.1ms)
+Completed 200 OK in 1914ms (Views: 4.8ms | ActiveRecord: 0.0ms)
