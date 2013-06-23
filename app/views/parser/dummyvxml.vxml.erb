@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<vxml version = "2.1" >
+<?xml version="1.0"?>
+<vxml version="2.1">
 
-  <form>
-    <block>
-    <prompt>
-      Hello World. This is my first telephone application.
-    </prompt>
-    </block>
-  </form>
+<form id="parrot">
+   <block>
+      You can start swimming in the sea.
+   </block>
+   <field name="main">
+      <prompt> 
+	  Would you like to hear the weather, get sports news or hear a stock quote?  Say quit to exit. 
+      </prompt>
+<grammar src="http://suendermann.com/parrot.gram" type="application/x-jsgf"/>
+   </field>
+   <block>
+      Goodbye.
+   </block>
+</form>
+
 </vxml>
