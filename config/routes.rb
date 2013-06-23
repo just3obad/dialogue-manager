@@ -2,6 +2,7 @@ DialogueManager::Application.routes.draw do
 
   root :to => 'parser#home'
   match "/find/q_keyword=:keyword&q_type=:type" => "parser#get_html"
+  match "/dummyvxml" => "parser#dummyvxml"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
