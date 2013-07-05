@@ -7113,3 +7113,155 @@ Processing by ParserController#dummyvxml as HTML
 DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
   Rendered parser/dummyvxml.xml.erb (0.0ms)
 Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-26 01:11:19 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (23.2ms)
+Completed 200 OK in 129ms (Views: 127.8ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-26 01:20:59 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-26 01:31:49 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-26 01:35:44 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-26 01:38:29 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-26 05:56:48 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (10.7ms)
+Completed 200 OK in 94ms (Views: 93.5ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-26 06:06:37 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-26 15:08:58 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (15.3ms)
+Completed 200 OK in 106ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-26 15:18:47 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-26 15:22:33 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-27 01:23:30 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (15.4ms)
+Completed 200 OK in 106ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-29 03:15:34 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (10.1ms)
+Completed 200 OK in 90ms (Views: 89.1ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-30 17:01:48 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (15.5ms)
+Completed 200 OK in 106ms (Views: 105.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-30 17:11:38 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-30 17:50:47 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (11.8ms)
+Completed 200 OK in 117ms (Views: 116.8ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-30 20:40:39 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (15.3ms)
+Completed 200 OK in 106ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-06-30 20:41:43 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 192.168.66.1 at 2013-07-01 02:45:30 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (15.5ms)
+Completed 200 OK in 116ms (Views: 115.8ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-05 03:12:08 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (16.7ms)
+Completed 200 OK in 227ms (Views: 226.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find/q_keyword=oxygen&q_type=when" for 127.0.0.1 at 2013-07-05 03:12:19 +0200
+Processing by ParserController#get_html as HTML
+  Parameters: {"keyword"=>"oxygen", "type"=>"when"}
+Completed 500 Internal Server Error in 484ms
+
+Errno::ECONNREFUSED (Connection refused - connect(2)):
+  app/models/parser.rb:9:in `get_html'
+  app/controllers/parser_controller.rb:10:in `get_html'
+
+
+  Rendered /home/j3/.rvm/gems/ruby-1.9.2-p320@DialougeManager/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/j3/.rvm/gems/ruby-1.9.2-p320@DialougeManager/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/j3/.rvm/gems/ruby-1.9.2-p320@DialougeManager/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (66.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-05 03:16:59 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dummyvxml" for 127.0.0.1 at 2013-07-05 03:17:28 +0200
+Processing by ParserController#dummyvxml as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/dummyvxml.xml.erb (0.5ms)
+Completed 200 OK in 139ms (Views: 2.9ms | ActiveRecord: 0.0ms)
