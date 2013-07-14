@@ -27,4 +27,8 @@ class ParserController < ApplicationController
 		@answer_dummy = Parser.dummy_get
 		render :file=>"parser/dummyvxml.xml.erb", :content_type => 'application/xml'
 	end
+
+	def test
+		render :file=>"parser/test.xml.erb", :content_type => 'application/xml'
+	end
 end
