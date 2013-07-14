@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<vxml version="2.1">
+   <form id="parrot">
+
+      <prompt> 
+        Welcome to the spoken dialogue system research center.  You are now calling OpenEphyra question answering service
+      </prompt>
+
+      <block>
+         The answer is <%= @answer_OpenEphyra %>.
+      </block>
+      <field name="main">
+         <nomatch>
+   	  Your response was out of grammar.  Would you like to hear the weather, get sports news or hear a stock quote?  Say quit to exit. 
+         </nomatch>
+         <noinput>
+   	  I could not hear you.  Would you like to hear the weather, get sports news or hear a stock quote?  Say quit to exit. 
+         </noinput>
+         <prompt> 
+   	  Would you like to hear the weather, get sports news or hear a stock quote?  Say quit to exit. 
+         </prompt>
+         <grammar src="file:///work/zanzibar/src/main/voicexml/parrot.gram" type="application/x-jsgf"/>
+         <filled>
+            <prompt> <value expr="main"/> </prompt>
+            <if cond="main=='quit'">
+   	    <exit/>
+            <else/>
+   	    <clear namelist="main"/>
+   	    <reprompt/>
+            </if>
+
+         </filled>
+      </field>
+      <block>
+         Goodbye.
+      </block>
+   </form>
+</vxml>
+

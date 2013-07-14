@@ -4,6 +4,15 @@ class ParserController < ApplicationController
 		render :template => "parser/home"
 	end
 
+	def get_OpenEphyra
+		question = params[:question]
+		@answer_OpenEphyra = Parser.get_OpenEphyra(question)
+		if(@answer_OpenEphyra.length == 0)
+			@answer_OpenEphyra = " Unknown "
+		end
+		render :file=>"parser/result_OpenEphyra.xml.erb", :content_type => 'application/xml'
+	end
+
 	def get_html
 		keyword = params[:keyword]
 		type = params[:type]
