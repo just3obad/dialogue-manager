@@ -1,7 +1,157 @@
-<?xml version="1.0"?>
-<vxml version="2.1">
-   <form id="parrot">
-     <block> Test Test Test Test Test Test Test Test Test Test </block>
-   </form>
-</vxml>
+<?xml version="1.0" encoding="UTF-8"?>
+<vxml version = "2.1" >
 
+  <form id="MainMenu">
+    <field name="SouthParkCharacter">
+      Please say your favorite South Park character's name.
+    </field>
+
+
+    <grammar xml:lang="en-us" root = "myrule">
+
+    <rule id="myrule">
+      <one-of>
+        <item> KENNY </item>
+        <item> Cartman </item>
+        <item> stan </item>
+        <item> kyle </item>
+        <item> canadians </item>
+        <item> chef </item>
+        <item> wendy </item>
+        <item> timmy </item>
+        <item> hanky </item>
+        <item> garrison </item>
+        <item> pip </item>
+        <item> ike </item>
+        <item> mephisto </item>
+        <item> jimbo </item>
+        <item> tweak </item>
+        <item> marvin </item>
+        <item> terrance </item>
+        <item> phillip </item>
+        <item> mister hat </item>
+        <item> big gay al </item>
+        <item> cartmans mom </item>
+        <item> mister mackey </item>
+    </one-of>
+  </rule>
+</grammar>
+
+
+<filled namelist="SouthParkCharacter">
+    <if cond="SouthParkCharacter == 'KENNY'">
+    <elseif cond="SouthParkCharacter == 'Cartman'"/>
+    <elseif cond="SouthParkCharacter == 'stan'"/>
+    <elseif cond="SouthParkCharacter == 'kyle'"/>
+    <elseif cond="SouthParkCharacter == 'canadians'"/>
+    <elseif cond="SouthParkCharacter == 'chef'"/>
+    <elseif cond="SouthParkCharacter == 'mister hat'"/>
+    <elseif cond="SouthParkCharacter == 'big gay al'"/>
+    <elseif cond="SouthParkCharacter == 'wendy'"/>
+    <elseif cond="SouthParkCharacter == 'timmy'"/>
+    <elseif cond="SouthParkCharacter == 'hanky'"/>
+    <elseif cond="SouthParkCharacter == 'garrison'"/>
+    <elseif cond="SouthParkCharacter == 'cartmans mom'"/>
+    <elseif cond="SouthParkCharacter == 'pip'"/>
+    <elseif cond="SouthParkCharacter == 'ike'"/>
+    <elseif cond="SouthParkCharacter == 'mister mackey'"/>
+    <elseif cond="SouthParkCharacter == 'mephisto'"/>
+    <elseif cond="SouthParkCharacter == 'jimbo'"/>
+    <elseif cond="SouthParkCharacter == 'marvin'"/>
+    <else/>
+      <reprompt />
+    </if>   
+  </filled>
+
+
+
+
+<filled namelist="SouthParkCharacter">
+    <if cond="SouthParkCharacter == 'KENNY'">
+      <prompt>
+        Kenny has more lives than a cat.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'Cartman'"/>
+      <prompt>
+        Cartman is not fat.  He is big boned.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'stan'"/>
+      <prompt>
+        Stan likes Wendy.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'kyle'"/>
+      <prompt>
+        Kyle has a gay dog.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'canadians'"/>
+      <prompt>
+        Canada.  What is that a boot?
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'chef'"/>
+      <prompt>
+        Chef is the coolest man in South Park.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'mister hat'"/>
+      <prompt>
+        Mister Hat is a puppet.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'big gay al'"/>
+      <prompt>
+        Big Gay Al is gay.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'wendy'"/>
+      <prompt>
+        Wendy likes Stan.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'timmy'"/>
+      <prompt>
+        Timmmy!  Timmmy tim maugh!
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'hanky'"/>
+      <prompt>
+        Mister Hanky, the Christmas poo.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'garrison'"/>
+      <prompt>
+        Mister Garrison is gay.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'cartmans mom'"/>
+      <prompt>
+        Cartman's mom loves the Denver Broncos.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'pip'"/>
+      <prompt>
+        Pip is British.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'ike'"/>
+      <prompt>
+        Ike is also Canadian.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'mister mackey'"/>
+      <prompt>
+        Mister Mackey.  ummm kay.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'mephisto'"/>
+      <prompt>
+        Mephisto enjoys experimenting on animals.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'jimbo'"/>
+      <prompt>
+        Jimbo is a redneck.
+      </prompt>
+    <elseif cond="SouthParkCharacter == 'marvin'"/>
+      <prompt>
+        Marvin is really hungry.
+      </prompt>
+    <else/>
+      <prompt>
+        A match has occurred, but no specific if statement
+        was written for it.  Probably just a minor character
+        like Tweak or Jimbo's gun-toting friend.
+      </prompt>
+    </if>   
+  </filled>
+
+  </form>
+
+</vxml>
