@@ -7279,3 +7279,25 @@ Started GET "/" for 127.0.0.1 at 2013-07-05 03:24:52 +0200
 Processing by ParserController#home as HTML
   Rendered parser/home.html.erb (0.5ms)
 Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 18:35:00 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (15.1ms)
+Completed 200 OK in 95ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dummyvxml" for 127.0.0.1 at 2013-07-14 18:35:10 +0200
+Processing by ParserController#dummyvxml as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/dummyvxml.xml.erb (0.9ms)
+Completed 200 OK in 2135ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/dummyvxml" for 127.0.0.1 at 2013-07-14 18:40:26 +0200
+Processing by ParserController#dummyvxml as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/dummyvxml.xml.erb (3.6ms)
+Completed 200 OK in 2015ms (Views: 44.5ms | ActiveRecord: 0.0ms)

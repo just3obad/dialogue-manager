@@ -16,7 +16,7 @@ class Parser < ActiveRecord::Base
 
   def self.dummy_get
   	begin
-  		page = Nokogiri::HTML(open("http://it-tjr2.dhbw-stuttgart.de:8080/hello/echo?question=Who+discovered+Oxygen%3F%0D%0A&secret=888"))
+  		page = Nokogiri::HTML(open("http://it-tjr2.dhbw-stuttgart.de:8080/hello/echo?question=Who+discovered+Oxygen%3F"))
   		return page.css('div#answer').text
   	rescue
   		return "No answer"
