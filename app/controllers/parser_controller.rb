@@ -6,6 +6,8 @@ class ParserController < ApplicationController
 
 	def get_OpenEphyra
 		question = params[:question]
+		question=question.tr!(' ','+')
+		@url=params[:question]
 		@answer_OpenEphyra = Parser.get_OpenEphyra(question)
 		if(@answer_OpenEphyra.length == 0)
 			@answer_OpenEphyra = " Unknown "
