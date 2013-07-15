@@ -33,4 +33,8 @@ class ParserController < ApplicationController
 	def test
 		render :file=>"parser/test.xml.erb", :content_type => 'application/xml'
 	end
+
+	def welcome
+		render :file=>"parser/welcome.xml.erb", :content_type => 'application/xml'
+	end
 end

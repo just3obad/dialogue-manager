@@ -6,6 +6,7 @@ DialogueManager::Application.routes.draw do
   match "/find/q=:question" => "parser#get_OpenEphyra"
   match "/dummyvxml" => "parser#dummyvxml"
   match "/test" => "parser#test"
+  match "/welcome" => "parser#welcome"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
