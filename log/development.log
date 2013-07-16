@@ -7741,3 +7741,25 @@ Started GET "/" for 127.0.0.1 at 2013-07-15 06:49:40 +0200
 Processing by ParserController#home as HTML
   Rendered parser/home.html.erb (0.7ms)
 Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-17 01:09:11 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (9.3ms)
+Completed 200 OK in 95ms (Views: 94.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-17 01:09:16 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.5ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-17 01:21:49 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.9ms)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms)
