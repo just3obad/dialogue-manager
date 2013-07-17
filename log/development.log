@@ -7763,3 +7763,52 @@ Processing by ParserController#welcome as HTML
 DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
   Rendered parser/welcome.xml.erb (0.9ms)
 Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-17 01:39:10 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.5ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-17 02:10:28 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.8ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-17 02:10:48 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.6ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-17 02:11:14 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.8ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-17 02:12:53 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.6ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-17 02:15:13 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.5ms)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-17 02:41:48 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.8ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)

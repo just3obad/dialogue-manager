@@ -8,119 +8,36 @@
    </form> -->
 
 
-<!-- 
-   <form id="start">
 
-  <field name="answer">
-
-    <noinput> Hey, don't sleep! </noinput>
-
-    <nomatch> say 'yes' or 'no' </nomatch>
+<form id="HelloWorld">
+  <block> Hello there my dear friend, we are testing this page java script. Hope it works !!! </block>
 
 
-
-    <prompt> Are you sleepy? </prompt>
-
-
-
-    <grammar root="main" tag-format="semantics/1.0-literals">
-
-      <rule id="main" scope="public">
-
-        <one-of>
-
-          <item><ruleref uri="#yes"/><tag>yes</tag></item>
-
-          <item><ruleref uri="#no"/><tag>no</tag></item>
-
-        </one-of>
-
-      </rule>
-
-      <rule id="yes">
-
-        <one-of>
-
-          <item>yes</item>
-
-          <item>yeah</item>
-
-          <item>yep</item>
-
-          <item>sure</item>
-
-        </one-of>
-
-      </rule>
-
-      <rule id="no">
-
-        <one-of>
-
-          <item>no</item>
-
-          <item>not</item>
-
-          <item>nope</item>
-
-        </one-of>
-
-      </rule>
-
-    </grammar>
-
-
-
-    <filled>
-
-      <if cond="answer=='yes'">
-
-        So you are sleepy. Me too.
-
-      <else/>
-
-        So you are not sleepy. But I am.
-
-      </if>
-
-    </filled>
-
-  </field>
-
-</form> -->
-
-
-
-
-  <form id="HelloWorld">
     <block>
       <script>
         <![CDATA[
-          function sayasDigits(number)
+
+          var thesecond = " Test Test Test Test Test Test "
+
+          function sayasDigits()
           {
-            var digitNumber = number.charAt(0);
-            for(var i = 1; i < number.length; i++)
-            {
-              digitNumber += ' ' + number.charAt(i);
-            }
+            var digitNumber = "Hello there my friend, Hello Hello Hello Hello !!!!!"
             return digitNumber;
           }
         ]]>
       </script>
-    <prompt>
-<!-- VWS 1.3 only
-      Hello there. The caller i d number is: <value expr="sayasDigits(session.telephone.ani)"/>
-                            -->
-<!-- VWS 2.0 only -->
-Hello there. The caller i d number is: <value expr="sayasDigits(session.callerid)"/>
-<!-- ************ -->
 
-      The called i d of this application is: <value expr="sayasDigits(session.telephone.dnis)"/>
+
+    <prompt>
+
+      <value expr="thesecond"/>
+      <value expr="sayasDigits()"/>
+
     </prompt>
     </block>
   </form>
 
 
-   
+
 </vxml>
 
