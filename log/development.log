@@ -9059,3 +9059,20 @@ Served asset /parser - 200 OK (6ms)
 
 Started GET "/assets/parser.txt" for 127.0.0.1 at 2013-07-19 05:40:57 +0200
 Served asset /parser.txt - 200 OK (43ms)
+
+
+Started GET "/assets/parser.txt" for 127.0.0.1 at 2013-07-19 05:42:20 +0200
+Served asset /parser.txt - 304 Not Modified (0ms)
+
+
+Started GET "/assets/parser.txt" for 127.0.0.1 at 2013-07-19 05:43:16 +0200
+Served asset /parser.txt - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-07-19 05:43:20 +0200
+Compiled application.js  (4ms)  (pid 15692)
+Served asset /application.js - 200 OK (66ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2013-07-19 05:43:38 +0200
+Served asset /application - 200 OK (10ms)
