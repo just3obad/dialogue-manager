@@ -1,3 +1,5 @@
+//alert("lalalalalalaal");
+
 function parseURL(url)
       {
         var string = url.split(' ').join('%20');
