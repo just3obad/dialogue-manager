@@ -1,10 +1,9 @@
-   <vxml version="2.1">
-    <!-- <form id="parrot"> -->
+<!-- <form id="parrot"> -->
       <!-- <block> -->
          <!-- Welcome to the spoken dialogue system research center.  You are now calling OpenEphyra question answering service -->
          <!-- <goto next="http://it-tjr2.dhbw-stuttgart.de/find/q=when%20was%20oxygen%20discovered"/> -->
       <!-- </block>
-   </form> -->
+</form> -->
 <!-- <script> -->
   <!-- <![CDATA[ -->
     <!-- function parseURL(url)
@@ -14,19 +13,16 @@
       } -->
   <!-- ]]> -->
 <!-- </script> -->
+
 <form id="HelloWorld">
-
 <var name="myVar" expr="'Test Test Test Test Test Test Test Test'"/> 
-
   <block> <prompt>Hello there my dear friend, we are testing this page java script. Hope it works !!! </prompt></block>
-
   <block> <prompt>Testing multiple blocks. Hope it does fucking work. </prompt></block>
-
   <block>
     <prompt><value expr="myVar"/></prompt>
-    <script src="parser.js"/>
+    <script src="app/assets/javascripts/parser.js"/>
     <goto expr="parseURL(http://it-tjr2.dhbw-stuttgart.de/find/q=when was oxygen discovered)"/>
   </block>
 </form>
-</vxml>
+
 
