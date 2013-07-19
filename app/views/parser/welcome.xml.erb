@@ -13,14 +13,12 @@
       } -->
   <!-- ]]> -->
 <!-- </script> -->
-<%= javascript_include_tag "parser.js" %>
 <form id="HelloWorld">
 <var name="myVar" expr="'Test Test Test Test Test Test Test Test'"/> 
   <block> <prompt>Hello there my dear friend, we are testing this page java script. Hope it works !!! </prompt></block>
   <block> <prompt>Testing multiple blocks. Hope it does fucking work. </prompt></block>
   <block>
     <prompt><value expr="myVar"/></prompt>
-    <!-- <script src="parser.js"/> -->
     <goto expr="parseURL(http://it-tjr2.dhbw-stuttgart.de/find/q=when was oxygen discovered)"/>
   </block>
 </form>
