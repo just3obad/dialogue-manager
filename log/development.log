@@ -9007,3 +9007,8 @@ Served asset /parser.js - 304 Not Modified (0ms)
 
 Started GET "/assets/parser.js" for 127.0.0.1 at 2013-07-19 05:34:29 +0200
 Served asset /parser.js - 200 OK (0ms)
+
+
+Started GET "/assets/parser.js" for 127.0.0.1 at 2013-07-19 05:35:13 +0200
+Compiled parser.js  (0ms)  (pid 15692)
+Served asset /parser.js - 200 OK (6ms)
