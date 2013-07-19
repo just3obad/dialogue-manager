@@ -1,5 +1,3 @@
-<?xml version="1.0"?>
-<vxml version="2.1">
    <!-- <form id="parrot"> -->
       <!-- <block> -->
          <!-- Welcome to the spoken dialogue system research center.  You are now calling OpenEphyra question answering service -->
@@ -8,12 +6,7 @@
    </form> -->
 <script>
   <![CDATA[
-    function sayasDigits()
-      {
-        var myVar2 = "http://it-tjr2.dhbw-stuttgart.de/find/q=when was oxygen discovered";
-        var string = myVar2.split(' ').join('%20');
-        return string;
-      }
+    
   ]]>
 </script>
 
@@ -26,11 +19,9 @@
   <block> <prompt>Testing multiple blocks. Hope it does fucking work. </prompt></block>
 
   <block>
+    <script src="parser.js"/>
     <prompt><value expr="myVar"/></prompt>
-    <!-- <prompt><value expr="sayasDigits()"/></prompt> -->
-    <goto expr="sayasDigits()"/>
+    <goto expr="parseURL(http://it-tjr2.dhbw-stuttgart.de/find/q=when was oxygen discovered)"/>
   </block>
-
 </form>
-</vxml>
 
