@@ -8547,3 +8547,306 @@ Started GET "/assets/parser.js?body=1" for 127.0.0.1 at 2013-07-19 04:05:46 +020
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-19 04:05:46 +0200
 Served asset /application.js - 304 Not Modified (1ms)
 Served asset /parser.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-19 04:07:34 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb within layouts/application (0.0ms)
+Compiled parser.js  (0ms)  (pid 14480)
+Compiled application.js  (3ms)  (pid 14480)
+Completed 200 OK in 61ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-19 04:07:35 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-19 04:07:35 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/parser.js?body=1" for 127.0.0.1 at 2013-07-19 04:07:35 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-19 04:07:35 +0200
+Served asset /parser.js - 200 OK (2ms)
+Served asset /application.js - 304 Not Modified (48ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:07:37 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.4ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:08:00 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:08:13 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:08:18 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:08:19 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:08:19 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-19 04:08:22 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:22 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:22 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:22 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/parser.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:22 +0200
+Served asset /parser.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-19 04:08:32 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:32 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:32 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/parser.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:32 +0200
+Served asset /parser.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:32 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-19 04:08:40 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:40 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:40 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/parser.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:40 +0200
+Served asset /parser.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:40 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-19 04:08:55 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:55 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:55 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/parser.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:55 +0200
+Served asset /parser.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-19 04:08:55 +0200
+Served asset /application.js - 304 Not Modified (30ms)
+Served asset /jquery.js - 304 Not Modified (65ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:09:01 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:10:32 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.5ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:11:18 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.5ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-19 04:11:20 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-19 04:11:20 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/parser.js?body=1" for 127.0.0.1 at 2013-07-19 04:11:20 +0200
+Served asset /parser.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-19 04:11:20 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-19 04:11:20 +0200
+Served asset /application.js - 304 Not Modified (5ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-19 04:11:21 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-19 04:11:21 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-19 04:11:21 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/parser.js?body=1" for 127.0.0.1 at 2013-07-19 04:11:21 +0200
+Served asset /parser.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-19 04:11:21 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-19 04:11:27 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb within layouts/application (0.0ms)
+Compiled parser.js  (0ms)  (pid 14542)
+Compiled application.js  (3ms)  (pid 14542)
+Completed 200 OK in 66ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-19 04:11:27 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-19 04:11:27 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/parser.js?body=1" for 127.0.0.1 at 2013-07-19 04:11:27 +0200
+Served asset /parser.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-19 04:11:27 +0200
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:11:31 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:11:33 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:11:54 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::MissingTemplate (Missing template parser/welcome.xml with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/home/j3/Desktop/rails_project/dialogue-manager/app/views"
+  * "/home/j3/Desktop/rails_project/dialogue-manager"
+  * "/"
+):
+  app/controllers/parser_controller.rb:38:in `welcome'
+
+
+  Rendered /home/j3/.rvm/gems/ruby-1.9.2-p320@DialougeManager/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:12:29 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:12:41 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template parser/welcome.xml with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/home/j3/Desktop/rails_project/dialogue-manager/app/views"
+  * "/home/j3/Desktop/rails_project/dialogue-manager"
+  * "/"
+):
+  app/controllers/parser_controller.rb:38:in `welcome'
+
+
+  Rendered /home/j3/.rvm/gems/ruby-1.9.2-p320@DialougeManager/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 04:13:12 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb (0.6ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
