@@ -13,7 +13,9 @@
       } -->
   <!-- ]]> -->
 <!-- </script> -->
-<form id="HelloWorld">
+
+
+<!-- <form id="HelloWorld">
 <var name="myVar" expr="'Test Test Test Test Test Test Test Test'"/> 
   <block> <prompt>Hello there my dear friend, we are testing this page java script. Hope it works !!! </prompt></block>
   <block> <prompt>Testing multiple blocks. Hope it does fucking work. </prompt></block>
@@ -22,6 +24,25 @@
     <script src="http://it-tjr7.dhbw-stuttgart.de/parser.js"/>
     <goto expr="removeSpaces('http://it-tjr2.dhbw-stuttgart.de/find/q=when was oxygen discovered')"/>
   </block>
-</form>
+</form> -->
 
+
+
+<form id="F1"> 
+  <field name="myVar" expr="" cond="true"> 
+    <grammar src="http://it-tjr7.dhbw-stuttgart.de/david/qa.gram" type="application/grammar-xml"/>
+    <prompt> 
+      Hello there my dear friend, we are testing this page recognition. Hope it works !!! 
+    </prompt> 
+  </field> 
+
+  <filled namelist="myList"> 
+    <prompt> Hey you my friend I think you said this  <value expr="MyVar"/></prompt> 
+  </filled>
+
+  <prompt> 
+      Testing the after recognition prompt !!!!!
+    </prompt> 
+
+</form> 
 

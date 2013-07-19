@@ -9076,3 +9076,17 @@ Served asset /application.js - 200 OK (66ms)
 
 Started GET "/assets/application" for 127.0.0.1 at 2013-07-19 05:43:38 +0200
 Served asset /application - 200 OK (10ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-19 22:12:43 +0200
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-19 22:12:43 +0200
+Processing by ParserController#home as HTML
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/home.html.erb (13.4ms)
+Completed 200 OK in 141ms (Views: 137.8ms | ActiveRecord: 0.0ms)
+  Rendered parser/welcome.xml.erb within layouts/application (3.9ms)
+Completed 200 OK in 130ms (Views: 129.8ms | ActiveRecord: 0.0ms)
