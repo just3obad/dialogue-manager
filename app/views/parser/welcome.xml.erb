@@ -29,20 +29,24 @@
 
 
 <form id="myForm"> 
-  <field name="myVar" cond="true"> 
-    <grammar src="http://it-tjr7.dhbw-stuttgart.de/david/qa.gram" type="application/x-jsgf"/>
-    <prompt> 
-      Hello there my dear friend, we are testing this page recognition. Hope it works !!! 
-    </prompt> 
-  </field> 
-
-  <filled mode="any"> 
+  <block>
+    <field name="myVar" cond="true">
+      <prompt> 
+        Hello there my dear friend, we are testing this page recognition. Hope it works !!! 
+      </prompt>
+      <grammar src="http://it-tjr7.dhbw-stuttgart.de/david/qa.gram" type="application/x-jsgf"/>
+    </field> 
+    <filled mode="any" namelist="myVar"> 
     <prompt> Hey you my friend I think you said this  <value expr="MyVar"/></prompt> 
-  </filled>
-
-  <prompt> 
+    </filled>
+  </block>
+  <block>
+    <prompt> 
       Testing the after recognition prompt !!!!!
-    </prompt> 
-
+    </prompt>
+  </block>
+  <block> 
+    <disconnect/> 
+  </block> 
 </form> 
 
