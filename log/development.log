@@ -9291,3 +9291,10 @@ Processing by ParserController#welcome as HTML
 DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
   Rendered parser/welcome.xml.erb within layouts/application (0.5ms)
 Completed 200 OK in 80ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-07-22 01:38:26 +0200
+Processing by ParserController#welcome as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /home/j3/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310)
+  Rendered parser/welcome.xml.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
