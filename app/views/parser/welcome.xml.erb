@@ -38,13 +38,19 @@
     <filled mode="any" namelist="myVar"> 
     <prompt> Hey you my friend I think you said this  <value expr="myVar"/> </prompt> 
     </filled>
-<!--   <block>
-    <prompt> 
-      Testing the after recognition prompt !!!!!
-    </prompt>
-  </block> -->
-  <block> 
-    <disconnect/> 
-  </block>
+    <nomatch cond="true" count="1"> 
+      <prompt> No match is working my friend. Please say something right the next time. </prompt> 
+    </nomatch> 
+    <noinput cond="true" count="1"> 
+      <prompt> No input is working my friend. Please say something the next time. </prompt> 
+    </noinput> 
+    <block>
+      <prompt> 
+        Testing the after recognition prompt !!!!!
+      </prompt>
+    </block>
+    <block> 
+      <disconnect/> 
+    </block>
 </form> 
 
