@@ -1,56 +1,16 @@
-<!-- <form id="parrot"> -->
-      <!-- <block> -->
-         <!-- Welcome to the spoken dialogue system research center.  You are now calling OpenEphyra question answering service -->
-         <!-- <goto next="http://it-tjr2.dhbw-stuttgart.de/find/q=when%20was%20oxygen%20discovered"/> -->
-      <!-- </block>
-</form> -->
-<!-- <script> -->
-  <!-- <![CDATA[ -->
-    <!-- function parseURL(url)
-      {
-        var string = url.split(' ').join('%20');
-        return string;
-      } -->
-  <!-- ]]> -->
-<!-- </script> -->
-
-
-<!-- <form id="HelloWorld">
-<var name="myVar" expr="'Test Test Test Test Test Test Test Test'"/> 
-  <block> <prompt>Hello there my dear friend, we are testing this page java script. Hope it works !!! </prompt></block>
-  <block> <prompt>Testing multiple blocks. Hope it does fucking work. </prompt></block>
-  <block>
-    <prompt><value expr="myVar"/></prompt>
-    <script src="http://it-tjr7.dhbw-stuttgart.de/parser.js"/>
-    <goto expr="removeSpaces('http://it-tjr2.dhbw-stuttgart.de/find/q=when was oxygen discovered')"/>
-  </block>
-</form> -->
-
-
-
 <form id="myForm"> 
-    <field name="myVar" cond="true">
-      <prompt> 
-        Hello there my dear friend, we are testing this page recognition. Hope it works !!! 
-      </prompt>
-      <grammar src="http://it-tjr7.dhbw-stuttgart.de/david/qa.gram" type="application/x-jsgf"/>
-    </field> 
-    <filled mode="any" namelist="myVar"> 
-    <prompt> Hey you my friend I think you said this  <value expr="myVar"/> </prompt> 
-    </filled>
-    <nomatch cond="true" count="1"> 
-      <prompt> No match is working my friend. Please say something right the next time. </prompt> 
-    </nomatch> 
-    <noinput cond="true" count="1"> 
-      <prompt> No input is working my friend. Please say something the next time. </prompt> 
-    </noinput> 
-    <block>
-      <prompt> 
-        Testing the after recognition prompt !!!!!
-      </prompt>
-    </block>
-    <block> 
-      <disconnect/> 
-    </block>
+  <field name="myVar" cond="true">
+    <prompt> 
+      Welcome to the spoken dialogue system research center.  You are now calling OpenEphyra question answering service. You can ask a questions like when was oxygen discovered. 
+    </prompt>
+    <grammar src="http://it-tjr7.dhbw-stuttgart.de/david/qa.gram" type="application/x-jsgf"/>
+  </field> 
+  <filled mode="any" namelist="myVar"> 
+  <prompt> The question you asked was <value expr="myVar"/></prompt> 
+  </filled>
+  <block>
+    <script src="http://it-tjr7.dhbw-stuttgart.de/parser.js"/>
+    <goto expr="makeURL"'('<value expr="myVar"')'/>/>
+  </block>
 </form> 
 
