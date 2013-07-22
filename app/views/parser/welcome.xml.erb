@@ -12,10 +12,10 @@
   </filled>
   <block>
     <script src="http://it-tjr7.dhbw-stuttgart.de/parser.js"/>
-    <!-- <var name="url" expr="'http://it-tjr2.dhbw-stuttgart.de/'"/> -->
+    <var name="url" expr="'http://it-tjr2.dhbw-stuttgart.de/find/q='"/>
     <!-- <var name="qstr" expr="'team=lakers&amp;city=nyc'"/> -->
     <!-- <goto expr="server + '?' + qstr"/> -->
-    <goto expr="makeURL(myVar)"/>
+    <goto expr="url+removeSpaces(myVar)"/>
   </block>
 </form> 
 
