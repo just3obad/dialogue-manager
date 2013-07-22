@@ -6,6 +6,12 @@
     </prompt>
     <grammar src="http://it-tjr7.dhbw-stuttgart.de/david/qa.gram" type="application/x-jsgf"/>
     <!-- <grammar src="http://it-tjr7.dhbw-stuttgart.de/questions.gram" type="application/x-jsgf"/> -->
+    <noinput cond="true" count="1"> 
+      <prompt> no input count one is successful. </prompt> 
+    </noinput> 
+    <nomatch cond="true" count="1"> 
+      <prompt> no match count one is successful. </prompt> 
+    </nomatch> 
   </field> 
   <filled mode="any" namelist="myVar"> 
   <prompt> The question you asked was <value expr="myVar"/></prompt> 
