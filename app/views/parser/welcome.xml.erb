@@ -19,7 +19,12 @@
     </noinput> 
     <nomatch cond="true" count="2"> 
       <prompt> no match count two is successful. </prompt> 
-    </nomatch> 
+    </nomatch>
+    <script src="http://it-tjr7.dhbw-stuttgart.de/parser.js"/>
+    <var name="url" expr="'http://it-tjr2.dhbw-stuttgart.de/find/q='"/>
+    <!-- <var name="qstr" expr="'team=lakers&amp;city=nyc'"/> -->
+    <!-- <goto expr="server + '?' + qstr"/> -->
+    <goto expr="url+removeSpaces(myVar)"/>
   <prompt> The question you asked was <value expr="myVar"/></prompt> 
   </filled>
   <block>
@@ -29,13 +34,6 @@
     <nomatch cond="true" count="3"> 
       <prompt> no match count three is successful. </prompt> 
     </nomatch> 
-  </block>
-  <block>
-    <script src="http://it-tjr7.dhbw-stuttgart.de/parser.js"/>
-    <var name="url" expr="'http://it-tjr2.dhbw-stuttgart.de/find/q='"/>
-    <!-- <var name="qstr" expr="'team=lakers&amp;city=nyc'"/> -->
-    <!-- <goto expr="server + '?' + qstr"/> -->
-    <goto expr="url+removeSpaces(myVar)"/>
   </block>
 </form> 
 
