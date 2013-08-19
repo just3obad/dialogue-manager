@@ -9345,3 +9345,143 @@ Started GET "/" for 127.0.0.1 at 2013-07-22 18:51:43 +0200
 Processing by ParserController#home as HTML
   Rendered parser/home.html.erb (0.0ms)
 Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-13 21:37:54 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (12.0ms)
+Completed 200 OK in 151ms (Views: 150.1ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-13 21:47:43 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-13 21:57:44 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-13 22:07:44 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-13 22:17:44 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-13 22:20:42 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-13 22:30:41 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-13 22:40:42 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-13 22:46:07 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-16 23:00:07 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (23.8ms)
+Completed 200 OK in 151ms (Views: 150.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-16 23:09:59 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-16 23:19:57 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-16 23:29:57 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-16 23:39:58 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-16 23:49:58 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-17 00:00:01 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-17 00:09:58 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-17 00:19:59 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-17 00:29:59 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-17 00:40:00 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-17 00:50:00 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-17 01:00:03 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 192.168.182.1 at 2013-08-17 01:10:00 +0200
+Processing by ParserController#home as HTML
+  Rendered parser/home.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)

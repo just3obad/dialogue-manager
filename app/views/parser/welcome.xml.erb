@@ -5,21 +5,8 @@
     Dear friend ask me anything or something ??
     </prompt>
     <grammar src="http://it-tjr7.dhbw-stuttgart.de/david/qa.gram" type="application/x-jsgf"/>
-    <!-- <grammar src="http://it-tjr7.dhbw-stuttgart.de/questions.gram" type="application/x-jsgf"/> -->
-    <noinput cond="true" count="1"> 
-      <prompt> no input count one is successful. </prompt> 
-    </noinput> 
-    <nomatch cond="true" count="1"> 
-      <prompt> no match count one is successful. </prompt> 
-    </nomatch> 
   </field> 
   <filled mode="any" namelist="myVar"> 
-    <noinput cond="true" count="2"> 
-      <prompt> no input count two is successful. </prompt> 
-    </noinput> 
-    <nomatch cond="true" count="2"> 
-      <prompt> no match count two is successful. </prompt> 
-    </nomatch>
     <script src="http://it-tjr7.dhbw-stuttgart.de/parser.js"/>
     <var name="url" expr="'http://it-tjr2.dhbw-stuttgart.de/find/q='"/>
     <!-- <var name="qstr" expr="'team=lakers&amp;city=nyc'"/> -->
@@ -27,13 +14,5 @@
     <goto expr="url+removeSpaces(myVar)"/>
   <prompt> The question you asked was <value expr="myVar"/></prompt> 
   </filled>
-  <block>
-    <noinput cond="true" count="3"> 
-      <prompt> no input count three is successful. </prompt> 
-    </noinput> 
-    <nomatch cond="true" count="3"> 
-      <prompt> no match count three is successful. </prompt> 
-    </nomatch> 
-  </block>
 </form> 
 
