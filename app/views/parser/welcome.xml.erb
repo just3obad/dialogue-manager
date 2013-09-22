@@ -1,19 +1,19 @@
 <form id="myForm"> 
 
-<!-- <block> 
-    <prompt> 
+  <block> 
+    <!-- <prompt> 
         here we use the audio fetchhint attribute with the value of prefetch. 
     </prompt> 
     <prompt> here we use the audio fetchhint attribute with the value of safe. </prompt> 
-    <audio src="http://it-tjr7.dhbw-stuttgart.de/1.wav"  fetchhint="safe"/> 
-  </block>  -->
+    <audio src="http://it-tjr7.dhbw-stuttgart.de/1.wav"  fetchhint="safe"/>  -->
+    <audio src="http://it-tjr7.dhbw-stuttgart.de/1.wav"  fetchhint="prefetch"/>     
+  </block> 
   
   <field name="myVar" cond="true">
-    <audio src="http://it-tjr7.dhbw-stuttgart.de/1.wav"  fetchhint="prefetch"/> 
-    <prompt> 
-    <!--   Welcome to the spoken dialogue system research center.  You are now calling OpenEphyra question answering service. You can ask a questions like when was oxygen discovered.  -->
+   <!--  <prompt> 
+      Welcome to the spoken dialogue system research center.  You are now calling OpenEphyra question answering service. You can ask a questions like when was oxygen discovered. 
     Dear friend ask me anything or something ??
-    </prompt>
+    </prompt> -->
     <grammar src="http://it-tjr7.dhbw-stuttgart.de/david/qa.gram" type="application/x-jsgf"/>
   </field> 
   <filled mode="any" namelist="myVar"> 
